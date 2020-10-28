@@ -24,5 +24,4 @@ genisoimage -l -J -R -V tinycore-$USER-$DATE \
 	-no-emul-boot -boot-load-size 4 -boot-info-table \
 	-iso-level 4 \
 	-b boot/isolinux/isolinux.bin -c boot/isolinux/boot.cat \
-	-eltorito-alt-boot -e EFI/BOOT/efiboot.img \
 	-o $ISO iso
